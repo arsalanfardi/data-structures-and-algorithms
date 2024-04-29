@@ -2,7 +2,7 @@
 
 ### Primitive Data Types
 
-#### char
+#### Chars
 - Defined with single quotes and can be used as integer values
 - Character is a wrapper class that encapsulates the primitive char data type and provides helpful utilities like: `Character.isLetterOrDigit(c)` or `Character.toLowerCase(c)`
 
