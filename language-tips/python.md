@@ -9,3 +9,13 @@
 - Instantiate a new array of a fixed size: `arr = [0]*26`
 - Use `any(arr)` or `all(arr)` to check whether any or every value in an iterable are true
   - Works for sets and dicts too, but note that it checks the **keys**
+
+#### Queues
+- Queue data structure in Python (i.e. O(1) dequeue operation):
+ - You can simulate this with a regular array and using `pop(0)`.
+```python
+from collections import deque
+q = deque()
+q.append('a')
+q.popleft()
+```
