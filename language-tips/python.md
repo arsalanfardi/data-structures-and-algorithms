@@ -19,3 +19,9 @@ q = deque()
 q.append('a')
 q.popleft()
 ```
+
+#### Variable definitions
+- Can define multiple variables in one line with comma notation:
+```
+prev, curr = ListNode(-1), head
+```
